@@ -1,0 +1,638 @@
+body{
+    margin:0;
+    padding:0;
+    background:black;
+  }
+
+  .page-1{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-Model-3-Desktop-US.avif);
+    background-size:cover ;
+    background-position: center;
+  }
+
+  .page-2{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-Model-Y-Desktop-US-v2.avif);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .page-3{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-Model-X-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .page-4{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-Model-S-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .page-5{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-Cybertruck-Desktop.avif);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .page-6{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-SolarPanels-01-Desktop.avif);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .page-7{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-SolarRoof-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .page-8{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-Powerwall-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .page-9{
+    width: 100%;
+    height: 779px;
+    background-image: url(Images/Homepage-Accessories-Desktop-US.avif);
+    background-size: cover;
+     background-position: center;
+  }
+
+  .footer{
+    width: 100%;
+    min-height: 440px;
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer>div{
+    width: 100%;
+    min-height: 100px;
+    color:rgb(208, 209, 210);
+    font-size :12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+    list-style: none;
+    position: relative;
+    top:25px;
+  }
+
+  .last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    font-family:  sans-serif; 
+  }
+
+  a{
+    text-decoration: underline;
+    text-underline-offset: 2.5px;
+   
+  }
+
+  .header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img{
+    width: 124px;
+    height: 94px;
+    position: relative;
+    right: 414px;
+  }
+
+  .nav{
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    position:relative;
+    right: 10px;
+  }
+
+  .icons{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    left:409px;
+  }
+
+  .page-1-btn{
+    height: 60px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:648px;
+    left: 325px;
+    gap: 12px;
+  }
+
+  .page-1-btn button{
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .btn-1{
+    background-color :rgb(62, 106, 225);
+    color: #fff;
+  }
+
+  .heading-1{
+    width:auto;
+    height: 200px;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 70px;
+  }
+
+.heading-1 h1{
+font-size :56px;
+font-weight: 500;
+ }
+
+ .heading-1 a{
+  cursor: pointer;
+  font-family :sans-serif;  
+  font-size :28px;
+  font-weight :500;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 1px;
+  position: relative;
+  bottom: 30px;
+ }
+ .heading-1 h4{
+  font-size: 17px;
+  font-weight: 300;
+  position: relative;
+  bottom: 45px;
+ }
+
+ .page-2-btn{
+  height: 60px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:710px;
+  left: 325px;
+  gap: 12px;
+}
+
+.page-2-btn button{
+  width: 270px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-3{
+  background-color :rgb(62, 106, 225);
+  color: #fff;
+}
+
+.heading-2{
+  width:auto;
+  height: 200px;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 6px;
+}
+
+.heading-2 h1{
+font-size :56px;
+font-weight: 500;
+}
+
+.heading-2 a{
+cursor: pointer;
+font-family :sans-serif;  
+font-size :28px;
+font-weight :500;
+text-underline-offset: 7px;
+text-decoration-thickness: 1px;
+position: relative;
+bottom: 35px;
+}
+.heading-2 h4{
+font-size: 17px;
+font-weight: 300;
+position: relative;
+bottom: 50px;
+}
+
+.page-3-btn{
+  height: 60px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:710px;
+  left: 325px;
+  gap: 12px;
+}
+
+.page-3-btn button{
+  width: 270px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-5{
+  background-color :rgb(62, 106, 225);
+  color: #fff;
+}
+
+.heading-3{
+  width:auto;
+  height: 200px;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 6px;
+}
+
+.heading-3 h1{
+font-size :56px;
+font-weight: 500;
+}
+
+.heading-3 a{
+cursor: pointer;
+font-family :sans-serif;  
+font-size :17px;
+font-weight :500;
+text-underline-offset: 3px;
+text-decoration-thickness: 1px;
+position: relative;
+bottom: 100px;
+text-align: center;
+}
+
+.heading-3 h4{
+font-size: 28px;
+font-weight: 500;
+position: relative;
+bottom: 72px;
+}
+
+.page-4-btn{
+  height: 60px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:710px;
+  left: 325px;
+  gap: 12px;
+}
+
+.page-4-btn button{
+  width: 270px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-7{
+  background-color :rgb(62, 106, 225);
+  color: #fff;
+}
+
+.heading-4{
+  width:auto;
+  height: 200px;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 6px;
+}
+
+.heading-4 h1{
+font-size :56px;
+font-weight: 500;
+}
+
+.heading-4 a{
+cursor: pointer;
+font-family :sans-serif;  
+font-size :17px;
+font-weight :500;
+text-underline-offset: 3px;
+text-decoration-thickness: 1px;
+position: relative;
+bottom: 100px;
+text-align: center;
+}
+
+.heading-4 h4{
+font-size: 28px;
+font-weight: 500;
+position: relative;
+bottom: 74px;
+}
+
+.page-5 img{
+  width: 450px;
+  height: 130px;
+  position: relative;
+  top: 90px;
+  left:370px;
+}
+
+.page-5{
+  display: flex;
+  justify-content: center;
+}
+
+.page-5-btn{
+  width: 750px;
+  display: flex;
+  align-items: end;
+  position: relative;
+  bottom: 28px;
+  gap:15px;
+  right: 120px;
+}
+
+.page-5-btn button{
+  width: 265px;
+  height: 40px;
+  color :rgb(162, 163, 165);
+  background-color :rgb(17, 17, 17);
+  cursor: pointer;
+  border-top-color: rgb(142, 142, 142);
+}
+
+.btn-9{
+border-top-style: solid;
+border-top-width :3px;
+border-bottom-left-radius :0px;
+border-bottom-right-radius: 0px;
+border-right-width: 0px;
+border-left-width :0px;
+}  
+
+.btn-10{
+border: none;
+}
+
+.heading-6{
+  color: #fff;
+  width: 100%;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.heading-6 h1{
+  font-size: 51px;
+}
+
+.heading-6 a{
+  cursor :pointer;
+  font-size :27px;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 1px;
+  position: relative;
+  bottom: 30px;
+}
+
+.page-6-btn{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.page-6-btn button{
+  width: 263px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-11{
+  background-color: rgb(62, 106, 225);
+  color: white;
+}
+
+.page-6{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading-7{
+  color: #fff;
+  width: 100%;
+  height: 265px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.heading-7 h1{
+  font-size: 51px;
+  position: relative;
+  top: 30px;
+  
+}
+
+.heading-7 h3{
+  font-size :27px;
+  position: relative;
+  bottom: 25px;
+}
+
+.page-7-btn{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap:15px;
+}
+
+.page-7-btn button{
+  width: 263px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-13{
+  background-color: rgb(62, 106, 225);
+  color: white;
+}
+
+.btn-14{
+background-color: rgb(255, 255, 255);
+}
+
+.page-7{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading-8{
+  color: #fff;
+  width: 100%;
+  height: 265px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.heading-8 h1{
+  font-size: 51px;
+  position: relative;
+  top: 30px;
+  
+}
+
+.heading-8 h3{
+  font-size :27px;
+  position: relative;
+  bottom: 25px;
+}
+
+.page-8-btn{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap:15px;
+}
+
+.page-8-btn button{
+  width: 263px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-15{
+  background-color: rgb(62, 106, 225);
+  color: white;
+}
+
+.btn-16{
+background-color: rgb(255, 255, 255);
+}
+
+.page-8{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading-9{
+  width: 100%;
+  height: 245px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.page-9{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-9-btn{
+  width: 100%;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-9-btn button{
+  width: 260px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #3e6ae1;
+  color: #fff;
+  border: none;
+}
+
+
+
+
